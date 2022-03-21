@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Setup ‘lua’
-      uses: leafo/gh-actions-lua@v8
+      uses: leafo/gh-actions-lua@v9.1.0
       with:
         luaVersion: 5.3
     - name: Setup ‘luarocks’
